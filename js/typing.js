@@ -14,5 +14,5 @@ const tyTitle = (text = '',time = 200 ,hashtag = '' ) => {
     },time)
 } 
 
-tyTitle("Welcome to my portfolio",200, tyText);
+tyTitle("Bienvenido a mi portafolio",200, tyText);
 
