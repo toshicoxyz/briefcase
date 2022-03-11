@@ -28,7 +28,7 @@
 
   <!-- Link - CSS -->
   <link rel="icon" href="img/png/ico/Icon.png">
-  <link rel="stylesheet" href="style/loader.css">
+  <link rel="stylesheet" href="style/index.css">
   
   
 
@@ -76,12 +76,16 @@
   <!-- MENU PRINCIPAL-->
   <main >
     <div class="info">
-      <h1 id="title">Welcome to my portfolio</h1>
-      <h2>I am Toshico</h2>
+      <h1 id="title">Bienvenido a mi portafolio</h1>
       
+      <button onmousedown="sonido.play()">Musica</button>
+      <a  href="CV/CV_ES.pdf" id="Descarga" download="CV ES" title="CV_ES">
+       
+      </a>
+
     </div>
     <div class="micro">
-      <h3 style="padding-bottom: 15px;">Solo Preguntame</h3>
+      <h3 style="padding-bottom: 15px;">¿Pregunta?</h3>
       <a onclick="hablar()" class="a_m" style="color: white;" href="#buscar">
         <img id="micro" src="img/png/micro.png" alt="">
         
@@ -90,7 +94,7 @@
       <audio >
         <source src="#" type="audio/ogg" />
         <source src="#" type="audio/mpeg" />
-      Your browser does not support the audio element.
+        Your browser does not support the audio element.
       </audio>
       
     </div>
@@ -104,9 +108,10 @@
     
     <div class="fo2">
       <h1 style="margin: auto;">
-        <a rel="noopener noreferrer" id="facebook" href="#">f</a> 
-        <a rel="noopener noreferrer" id="gmail" href="#">g</a>
-        <a rel="noopener noreferrer" target="_blank" id="linkedin" href="https://www.linkedin.com/in/toshico/">in</a>
+        <a rel="noopener noreferrer" target="_blank" id="linkedin" href="https://www.linkedin.com/in/toshico/"><img src="./img/png/ico/Linkedin.png" alt="Linkedin" title="Linkedin"></a>
+        <a rel="noopener noreferrer" target="_blank" id="gmail" href="mailto:colcapedro@gmail.com"><img src="./img/png/ico/Email.png" alt="Email" title="Email"></a>
+        
+        <a rel="noopener noreferrer" target="_blank" id="github" href="https://github.com/toshicoxyz"><img src="./img/png/ico/GitHub.png" alt="GitHub" title="GitHub"></a>
       </h1>
     </div>
     <div class="m">
@@ -117,6 +122,7 @@
     
   </footer>
 
+    <script src="js/audio.js"></script>
     <script src="js/loader.js"></script>
     <script src="js/micro.js"></script>
     <script src="js/typing.js"></script>
