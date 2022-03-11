@@ -1,0 +1,119 @@
+
+
+/* CABECERA */
+.loading {
+    transform: translateY(-65px);
+    overflow: inherit;
+    display: flex;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    height: 65px;
+    margin: auto;
+  
+    background: url(../img/png/Rayo4.webp) bottom no-repeat black;
+  
+    
+    
+    transition: opacity 4s;
+    transition: visibility 4s;
+    animation: h 3s 0s alternate-reverse ease-in-out;
+  }
+  
+  
+  
+  header {
+    position: relative;
+    font-size: 1rem;
+    color: var(--font-color);
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    background: transparent;
+    /*
+      transform: translateX(-100px) ;
+      */
+    animation: header 3.5s alternate-reverse cubic-bezier(.71,.11,.43,1.1);
+    transition: margin 2s;
+  
+  }
+  
+  header div {
+    flex: content;
+    justify-content: center ;
+  
+    flex-wrap: nowrap;
+  }
+  
+  
+  
+  
+  .Logo {
+    width: 137px;
+    text-align: center;
+    padding: 0px 0px 0px 45px;;
+    margin: auto;
+  }
+  
+  #│ {
+    transform: rotate(180deg);
+    position: sticky;
+    display: flex;
+    width: 2px;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px;
+    margin: auto;
+    color: whitesmoke;
+    filter: blur(0.2px);
+    /*
+    animation: rotar 4s infinite linear ease-in-out reverse;
+    */
+  }
+  
+  .Des {
+    display: flex;
+    width: 10px;
+    
+    text-align: center;
+    /*
+    padding: 0px 45px 0px 0px;
+    */
+    color: whitesmoke;
+    margin: auto;
+  
+    animation: opacity-text 5s 2s infinite;
+  }
+  
+  
+  
+  
+  .S:nth-child(1) {
+    animation: blur-text 3s 2s infinite alternate;
+  }
+  
+  .S:nth-child(2) {
+    animation: blur-text 3s 2.2s infinite alternate;
+  }
+  
+  .S:nth-child(3) {
+    animation: blur-text 3s 2.4s infinite alternate;
+  }
+  
+  .S:nth-child(4) {
+    animation: blur-text 3s 2.6s infinite alternate;
+  }
+  
+  .S:nth-child(5) {
+    animation: blur-text 3s 2.8s infinite alternate;
+  }
+  
+  .S:nth-child(6) {
+    animation: blur-text 3s 3s infinite alternate;
+  }
+  
+  .S:nth-child(7) {
+    animation: blur-text 3s 3.2s infinite alternate;
+  }
+  

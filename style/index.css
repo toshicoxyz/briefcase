@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+
+@import url(animaciones.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Quattrocento Sans";
+
+  font-weight: lighter;
+}
+
+/* Paleta de Colores */
+:root {
+  --font-color:rgb(241, 245, 255) ;
+  --back-color:rgb(54,71,91);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 65px;
+  padding-bottom: 65px;
+
+  
+  background:black;
+  background-position: 0px 0px;  
+  
+  
+  animation: back 4.2s ease forwards;
+  
+  
+}
+
+
+/*
+::-webkit-scrollbar {
+  display:none;
+}
+*/
+
